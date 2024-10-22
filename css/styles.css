@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #E5D8C8;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px; 
+    height: auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #5F1820;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main {
+    margin-left: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+h1 {
+    color: #5F1820;
+}
+
+h2 {
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+
+.social-icons1 a {
+    color: #f9f9f9; /* Color de los íconos de redes sociales */
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.social-icons1 a:hover {
+    color: #ffcc00;
+}
+
+.social-icons2 a {
+    color: #5F1820; /* Color de los íconos de redes sociales */
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+
+footer {
+    background-color: #5F1820;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.contact-info p,
+.subscribe p {
+    margin-bottom: 10px;
+}
+
+.subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #5F1820;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #7e3a42;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .slider {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.slide {
+    position: relative;
+    width: 300px;
+}
+
+.slide img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+  .contenidovideo {
+    display: flex;
+    justify-content: center;
+}
+
+.contenidovideo video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.galeria {
+    background-color: #E5D8C8;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+  .galeria p {
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    line-height:5px ;
+    margin-bottom: 10px;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 500px;
+    height: 350px;
+    border: 2px solid #5F1820;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidouno .slide img {
+    max-width: 500px;
+    height: 250px;
+    border: 2px solid #5F1820;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+
+ /* productos.html */
+
+ .imagenes-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.imagenes-container img {
+    width: calc(50% - 10px); 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    border: 2px solid #5F1820;
+}
+
+ /* productos.html */
+
+.contact-info {
+    text-align: center; /* Centra el texto dentro de contact-info */
+    margin-bottom: 20px; /* Añade un margen inferior */
+}
+
+.subscribe {
+    text-align: center; /* Centra el texto dentro de subscribe */
+    margin-top: 20px; /* Añade un margen superior */
+}
+
+iframe {
+    width: 1500px;
+    display: block; /* Asegura que el iframe se trate como un bloque */
+    margin: 20px auto; /* Centra el iframe horizontalmente */
+}

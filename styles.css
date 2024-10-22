@@ -1,0 +1,83 @@
+/* Importar una fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #d4a373;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f1c232;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4a373; /* Color del texto al pasar el mouse */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Ancho máximo para el contenido */
+    margin: auto; /* Centrar el contenido */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    transition: transform 0.3s ease-in-out;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las imágenes se ajusten */
+    justify-content: center; /* Centrar imágenes */
+    gap: 15px; /* Espacio entre imágenes */
+}
+
+.galeria img {
+    width: 350px;
+    height: auto; /* Mantener la proporción de aspecto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #d4a373; /* Color de fondo del pie de página */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
